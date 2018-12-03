@@ -1,0 +1,14 @@
+push int8(42)
+push int8(15)
+push int8(15)
+push int8(15)
+push int8(15)
+add
+add
+add
+dump
+push int8(-15)
+push int8(15)
+sub
+dump
+exit

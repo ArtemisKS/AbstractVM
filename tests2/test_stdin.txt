@@ -1,0 +1,9 @@
+push int8(65)
+dump
+push double(14.77)
+mul
+dump
+;pop
+;print
+exit
+;;

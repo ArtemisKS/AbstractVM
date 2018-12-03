@@ -1,0 +1,10 @@
+push int32(2)
+push int32(3)
+add
+assert int32(5)
+push float(23.5)
+push int32(367)
+mul
+dump
+exit
+;;

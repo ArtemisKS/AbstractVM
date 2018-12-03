@@ -1,0 +1,28 @@
+push int8(-34)
+push int16(-1312)
+push int32(-123)
+push float(-23.4)
+push double(-5343.4)
+;pback
+push float(-3.4)
+push int32(-5343)
+push int16(4)
+pmiddle
+pmin
+pmax
+psum
+sort
+dump
+add
+div
+mul
+mod
+sub
+push int8(99)
+print
+push float(0.0)
+ppop
+pback
+;mod
+;dump
+exit

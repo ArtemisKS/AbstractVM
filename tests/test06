@@ -1,0 +1,4 @@
+push int8(2)
+push int8(100)
+mul
+exit

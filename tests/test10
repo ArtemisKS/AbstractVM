@@ -1,0 +1,21 @@
+push int32(42);cmnt push
+
+;nekotorii musor
+;int32(8)
+;eshemusorpush int32(0)
+;push int32(0) 0 ;cmnt laal
+;push int8(42.3)
+push int8(41)
+dump
+add
+dump
+push int8(97)
+print
+size
+clean
+;ck("pop");
+push int8(2)
+push int8(1)
+sub
+dump
+exit

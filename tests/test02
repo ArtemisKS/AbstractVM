@@ -1,0 +1,33 @@
+
+push int8(-42)
+push int16(2987)
+add
+type
+
+push int32(98755)
+add
+type
+
+push int8(84)
+add
+type
+
+push float(3457.409)
+add
+type
+
+push int32(67)
+add
+type
+
+push int16(890)
+add
+type
+
+push double(0.678909)
+add
+type
+
+dump
+
+exit

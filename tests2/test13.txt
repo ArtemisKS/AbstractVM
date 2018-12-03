@@ -1,0 +1,12 @@
+push int8(42)
+push int8(25)
+push int8(3)
+mul
+dump
+push int8(-2)
+push int8(33)
+mul
+dump
+;pback
+;dump
+exit
