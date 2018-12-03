@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vdzhanaz <vdzhanaz@student.unit.ua>        +#+  +:+       +#+        */
+/*   By: akupriia <akupriia@student.unit.ua>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/17 23:09:23 by akupriia          #+#    #+#             */
-/*   Updated: 2018/12/03 02:51:55 by vdzhanaz         ###   ########.fr       */
+/*   Updated: 2018/12/03 03:21:37 by akupriia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -122,6 +122,6 @@ int	main(int ac, char **av)
 	else
 		for (int i = 1; i < ac; i++)
 			read_files(av[i]);
-	system("leaks -q avm");
+	// system("leaks -q avm");
 	return (0);
 }

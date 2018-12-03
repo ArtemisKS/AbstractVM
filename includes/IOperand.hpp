@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   IOperand.hpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vdzhanaz <vdzhanaz@student.unit.ua>        +#+  +:+       +#+        */
+/*   By: akupriia <akupriia@student.unit.ua>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/17 23:14:16 by akupriia          #+#    #+#             */
-/*   Updated: 2018/12/03 02:51:09 by vdzhanaz         ###   ########.fr       */
+/*   Updated: 2018/12/03 03:02:38 by akupriia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

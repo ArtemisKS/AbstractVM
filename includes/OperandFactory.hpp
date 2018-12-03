@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   OperandFactory.hpp                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vdzhanaz <vdzhanaz@student.unit.ua>        +#+  +:+       +#+        */
+/*   By: akupriia <akupriia@student.unit.ua>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/17 23:13:33 by akupriia          #+#    #+#             */
-/*   Updated: 2018/12/03 02:51:00 by vdzhanaz         ###   ########.fr       */
+/*   Updated: 2018/12/03 03:02:36 by akupriia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

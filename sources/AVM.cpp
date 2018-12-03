@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   AVM.cpp                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vdzhanaz <vdzhanaz@student.unit.ua>        +#+  +:+       +#+        */
+/*   By: akupriia <akupriia@student.unit.ua>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/18 17:06:40 by akupriia          #+#    #+#             */
-/*   Updated: 2018/12/03 02:58:54 by vdzhanaz         ###   ########.fr       */
+/*   Updated: 2018/12/03 03:19:39 by akupriia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -385,7 +385,7 @@ void			AVM::push(eOperandType type, std::string const &str)
 
 void			AVM::add(void)
 {
-	if (this->oper_cont.size() < 2)
+	if (N_ENOUGH_OP)
 		throw OperandsException(std::to_string(this->line_num));
 	const IOperand *x = this->oper_cont.back();
 	this->oper_cont.pop_back();
@@ -408,7 +408,7 @@ void			AVM::add(void)
 
 void			AVM::sub(void)
 {
-	if (this->oper_cont.size() < 2)
+	if (N_ENOUGH_OP)
 		throw OperandsException(std::to_string(this->line_num));
 	const IOperand *x = this->oper_cont.back();
 	this->oper_cont.pop_back();
@@ -431,7 +431,7 @@ void			AVM::sub(void)
 
 void			AVM::mul(void)
 {
-	if (this->oper_cont.size() < 2)
+	if (N_ENOUGH_OP)
 		throw OperandsException(std::to_string(this->line_num));
 	const IOperand *x = this->oper_cont.back();
 	this->oper_cont.pop_back();
@@ -454,7 +454,7 @@ void			AVM::mul(void)
 
 void			AVM::div(void)
 {
-	if (this->oper_cont.size() < 2)
+	if (N_ENOUGH_OP)
 		throw OperandsException(std::to_string(this->line_num));
 	const IOperand *x = this->oper_cont.back();
 	this->oper_cont.pop_back();
@@ -477,7 +477,7 @@ void			AVM::div(void)
 
 void			AVM::mod(void)
 {
-	if (this->oper_cont.size() < 2)
+	if (N_ENOUGH_OP)
 		throw OperandsException(std::to_string(this->line_num));
 	const IOperand *x = this->oper_cont.back();
 	this->oper_cont.pop_back();

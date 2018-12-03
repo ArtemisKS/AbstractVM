@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   AVM.hpp                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vdzhanaz <vdzhanaz@student.unit.ua>        +#+  +:+       +#+        */
+/*   By: akupriia <akupriia@student.unit.ua>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/18 17:06:45 by akupriia          #+#    #+#             */
-/*   Updated: 2018/12/03 02:50:43 by vdzhanaz         ###   ########.fr       */
+/*   Updated: 2018/12/03 03:13:29 by akupriia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,7 @@
 #define B_PURPLE			"\033[1;35m"
 #define RED					"\033[0;31m"
 #define B_RED				"\033[1;31m"
+#define N_ENOUGH_OP			(this->oper_cont.size() < 2)
 
 class AVM
 {
