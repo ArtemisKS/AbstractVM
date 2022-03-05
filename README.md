@@ -1,4 +1,5 @@
 # Abstract VM
+Abstract Virtual Machine project, lets you do various operations on the numerical stack
 
 ## ```AVM``` is a command line program (school 42)
 Abstract VM (Virtual Machine) basically emulates a simple VM based upon stack of numbers,  
